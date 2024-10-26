@@ -1,0 +1,250 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: "Teko", sans-serif;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.root {
+  background-color: #1e272e;
+  padding: 16px 24px;
+}
+
+.color-primary {
+  color: #fcc54f;
+}
+
+.app-bar {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo {
+  height: 62px;
+}
+
+.nav-brand-group {
+  flex-grow: 1;
+}
+
+.caption {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.play-button {
+  padding: 8px 20px;
+  background-color: #ef5d18;
+  border: solid 2px #fff;
+  font-weight: 700;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.content {
+  margin: 48px 0;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.game-play {
+  display: flex;
+  flex-direction: column;
+}
+
+.screenshot {
+  width: 300px;
+  border: solid 2px #fff;
+}
+
+.caption-2 {
+  font-size: 18px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  border: solid 2px #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .app-bar {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .content {
+    flex-direction: row;
+  }
+
+  .profile-card {
+    flex-direction: row;
+  }
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.root {
+  background-color: #1e272e;
+  padding: 20px;
+}
+
+.color-primary {
+  color: #fcc54f;
+}
+
+.app-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo {
+  height: 80px;
+}
+
+.nav-brand-group {
+  text-align: center;
+}
+
+.caption {
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.play-button {
+  padding: 10px 25px;
+  background-color: #ef5d18;
+  border: none;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.play-button:hover {
+  background-color: #ff7a30;
+  transform: scale(1.05);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.game-description {
+  max-width: 600px;
+  text-align: center;
+}
+
+.section-title {
+  font-family: "Teko", sans-serif;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.body {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.game-play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screenshot {
+  width: 300px;
+  border: solid 2px #fff;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.caption-2 {
+  font-size: 0.9em;
+  color: #aaa;
+  margin-top: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 1em;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .app-bar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .game-description, .game-play {
+    max-width: 50%;
+  }
+}
