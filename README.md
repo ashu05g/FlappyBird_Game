@@ -6,6 +6,11 @@
 Reimagining the classic **Flappy Bird** game experience in a web-based format! Navigate the bird through endless obstacles, beat high scores, and enjoy the thrill of the original arcade sensation in your browser.
 
 ---
+## 🕹️ Links
+
+- [Click Here to Play 🐤](https://ashu05g.github.io/FlappyBird_Game/)
+
+---
 
 ## 📋 Table of Contents
 - [Features](#features)
@@ -130,13 +135,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Inspired by **Flappy Bird**, originally created by Dong Nguyen.
 - Sound effects and sprites are either original or modified versions from the open-source community.
-
----
-
-## 🌐 Links
-
-- [Live Demo](https://example.com/flappy-bird-game)
-
 
 ---
 
