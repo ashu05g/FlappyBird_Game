@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: "production",
   entry: {
-    main: "./src/index.js",
+    main: "./index.js",
     game: "./src/game/game.js",
   },
   output: {
@@ -29,7 +29,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      template: "./index.html",
       chunks: ["main"],
       filename: "index.html",
       favicon: "./logo.png",
