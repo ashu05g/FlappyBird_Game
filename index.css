@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #87CEEB, #4682B4);
+  background: linear-gradient(to bottom, #87CEEB, #21ad3b);
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -16,14 +16,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* Pipe Elements */
 .pipe-top, .pipe-bottom {
   position: absolute;
   width: 80px;
-  height: 300px;
+  height: 200px;
   background: #32cd32;
   border: 5px solid #006400;
   border-radius: 0 0 20px 20px;
@@ -46,18 +46,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   text-align: center;
   padding: 10px;
 }
 
 .logo {
-  height: 80px;
+  height: 60px;
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 .nav-brand {
-  font-size: 2.5em;
+  font-size: 2.3em;
   color: #ffeb3b;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -92,7 +92,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin: 20px 0;
+  margin: 0;
+
   text-align: center;
 }
 
@@ -103,7 +104,7 @@ body {
 }
 
 .section-title {
-  margin-top: 10px ;
+  margin-top: 20px ;
   font-family: "Teko", sans-serif;
   font-size: 2em;
   color: #ffeb3b;
@@ -121,20 +122,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;  /* Add spacing between button and image */
+  gap: 10px;  /* Add spacing between button and image */
 }
 
 
 .screenshot {
-  width: 320px;
+  width: 250px;
   border: solid 3px #fff;
   border-radius: 8px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
   margin-top: 0; /* Remove top margin */
-}
-
-.play-button {
-  margin-bottom: 10px; /* Space between button and image */
 }
 
 
@@ -153,7 +150,7 @@ footer {
 }
 
 /* Responsive Layout */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 750px) {
   .app-bar {
     flex-direction: row;
     justify-content: space-between;
@@ -166,6 +163,6 @@ footer {
   }
 
   .game-description, .game-play {
-    max-width: 45%;
+    max-width: 40%;
   }
 }

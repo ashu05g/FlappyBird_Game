@@ -4,7 +4,7 @@
   "description": "FlappyBird clone",
   "private": true,
   "scripts": {
-    "start": "serve public",
+    "start": "serve docs",
     "dev": "webpack serve --open",
     "build": "webpack",
     "webhint": "hint .",
