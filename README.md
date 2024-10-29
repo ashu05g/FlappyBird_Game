@@ -58,7 +58,7 @@ Guide your bird by flapping to avoid pipes and score points. Each successful pas
 ![screenshot](./app_screenshot.png)
 
 ### Gameplay
-![Screenshot 2024-10-26 154413](https://github.com/user-attachments/assets/1bf4c650-eccb-45fb-a37d-e1aca3517629)
+![gameplay](https://github.com/user-attachments/assets/5249dfd3-bd64-4364-98eb-e6e40001aa9d)
 
 ### Game Over
 ![Screenshot 2024-10-26 154433](https://github.com/user-attachments/assets/fc402e96-1ebb-46d1-a507-79a4ff776501)
